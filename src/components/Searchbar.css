@@ -1,0 +1,27 @@
+.search-bar-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.search-bar-container input {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 2px solid #0288d1; /* Blue border */
+    border-radius: 4px;
+    margin-right: 0.5rem;
+}
+
+.search-bar-container button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: #0288d1; /* Blue background */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.search-bar-container button:hover {
+    background-color: #0277bd; /* Darker blue on hover */
+}
